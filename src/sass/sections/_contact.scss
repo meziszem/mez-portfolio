@@ -1,6 +1,6 @@
 #contact {
   background-image: linear-gradient(
-    135deg,
+    180deg,
     $primary-color 0%,
     $secondary-color 100%
   );
@@ -10,6 +10,7 @@
   margin-top: -10rem;
   margin-bottom: -1px;
   color: $white-color;
+ 
 
   @include respond(tab-land) {
     padding: 10rem 0;
@@ -20,8 +21,9 @@
 
   .contact-wrapper {
     margin-top: 3.2rem;
-    padding: 0 2rem;
+    padding: 10 2rem;
     backface-visibility: hidden;
+    
 
     &__text {
       margin-bottom: 2.5rem;
