@@ -1,3 +1,14 @@
+#canvas-basic {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
 
 .main-container {
   position: relative;
@@ -200,6 +211,7 @@
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   padding-bottom: 6%;
   padding-top: 10px;
+  padding-right: 1%;
  
    
   @include respond(tab-land) {
