@@ -16,7 +16,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="assets/diamonalpha.png" />
 
     <!-- Todo: put here your site title -->
     <title> Meseret Haddis | Video Editor/Developer</title>
@@ -44,7 +44,7 @@
   <body>
     <!-- gradient -->
     <header class="main-header">
-      
+   
       <div class="main-header__logo-container">
         <div class="main-header__logo-img-cont">
             <img
@@ -52,16 +52,16 @@
             alt="logo Image" class="main-header__logo-img" />
             
         </div>
-        <h4 class="main-header__logo-text"><a href="./index.html#about">mez</a></h4>
+        <h4 class="main-header__logo-text"><a href="#about">mez</a></h4>
       </div>
       <nav class="main-header__navigation">
         <ul class="main-header__navigation-links">
-          <ul class="main-header__navigation-link"><a href="./index.html#hero"> Home </a></ul>
-          <ul class="main-header__navigation-link"><a href="./index.html#about"> About </a></ul>
+          <ul class="main-header__navigation-link"><a href="#hero"> Home </a></ul>
+          <ul class="main-header__navigation-link"><a href="#about"> About </a></ul>
           <ul class="main-header__navigation-link">
-            <a href="./index.html#projects"> Projects </a>
+            <a href="#projects"> Projects </a>
           </ul>
-          <ul class="main-header__navigation-link"><a href="./index.html#contact" href=""> Contact </a></ul>
+          <ul class="main-header__navigation-link"><a href="#contact" href=""> Contact </a></ul>
         </ul>
       </nav>
       <div class="main-header__sm-scr-nav-btn">
@@ -88,6 +88,15 @@
           </li>
         </ul>
       </div>
+            <!-- Splash Screen Animation -->
+       <div class="splash-container">
+        <video autoplay muted loop id='myVideo'>
+          <source src="./assets/diamond_bounce.mp4" href="#index.html" type=video/mp4>
+      </video>
+      <h1 class="splash-header splash-border">Enter</h1>
+
+      </div>
+
         </header>
 
     <div id="top"></div>
@@ -101,12 +110,12 @@
           <br />
           but you can call me <span class="text-color-main">mez</span>.
         </h1>
-        <p class="hero-cta load-hidden">
-          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
-            >Learn more</a
-          >
-        </p>
+        <p class="hero-cta">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">Learn more</a>
+        </p> 
       </div>
+   
+      <!-- Splash code ends here -->
     </section>
    
     <!-- /END Hero Section -->
@@ -390,11 +399,7 @@
         <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
         <p class="footer__text">
           © 2023 - Designed by mez</p>
-          <p class="footer__text">Template by 
-          <a rel="noreferrer" href="https://github.com/cobidev" target="_blank"
-            >Jacobo Martínez</a
-          >
-        </p>
+         </p>
 
         <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
          </div>
