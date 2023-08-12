@@ -89,7 +89,8 @@
   width : 100%;
   transform : translate(-50%,-50%);    
   background-color: rgb(255, 255, 255);
-  transition : all ease-in-out 600ms;
+  transition : all ease-out 1s;
+  
 }
 
 .splash-header {
@@ -114,8 +115,13 @@
 
 }
 
-.hidden{
-  transition : 10s;
+.hidden {
+  transition : 2.5s;
   display : none;
 }
 
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}

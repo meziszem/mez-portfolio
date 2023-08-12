@@ -8,7 +8,9 @@ initTiltEffect();
 const splashScreen = document.querySelector('.splash-container');
 
 splashScreen.addEventListener('click',()=>{
-  setTimeout(()=>{
+  
+    splashScreen.style.opacity = 0;
+    setTimeout(()=>{
     splashScreen.classList.add('hidden');
-  },20)
+  },2000)
 })
