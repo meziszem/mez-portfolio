@@ -12,5 +12,5 @@ splashScreen.addEventListener('click',()=>{
     splashScreen.style.opacity = 0;
     setTimeout(()=>{
     splashScreen.classList.add('hidden');
-  },2000)
+  },200)
 })
