@@ -23,6 +23,11 @@
 }
 
 /* Hero Style */
+.source-code {
+  padding: 8px;
+  text-align: center;
+}
+
 .cta-btn--hero {
   @include supportColorForIE11();
   border: 2px solid transparent;
