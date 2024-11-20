@@ -4,6 +4,17 @@
   margin-top: -10rem;
   padding-top: 15rem;
 
+  .hide {
+    display: none;
+    margin-top: 1rem ;
+  }
+  
+  .myDIV:hover + .hide {
+    margin-top: 1rem ;
+    display: block;
+    color: rgb(0, 4, 255);
+  }
+
   @include respond(tab-land) {
     margin-top: 0;
     padding-top: 5rem;
